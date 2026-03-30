@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    height: 560px;
+    width: 900px;
+    margin: 0px 50px;
+    border: 50px solid #6e472b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chess {
+    height: 560px;
+    width: 100px;
+    background-color: #6e472b;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: #eed9ad;
+    text-transform: capitalize;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+}
+
+.lgt {
+    height: 500px;
+    width: 800px;
+    border: 12px solid #e3b56d;
+    background-color: chartreuse;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    width: 97px;
+    height: 60px;
+    background-color: blueviolet;
+    border: none;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+}
+
+.b2 {
+    background-color: #a2663a;
+}
+
+.b1 {
+    background-color: #e8d092;
+}
+
+
+.box>img {
+    height: 100px;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
